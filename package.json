@@ -1,0 +1,68 @@
+{
+  "name": "bitcore-p2p-square",
+  "version": "1.1.6",
+  "description": "Interface to the square P2P network for bitcore-square",
+  "author": "BitPay <dev@bitpay.com>",
+  "main": "index.js",
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test:node",
+    "coverage": "gulp coverage",
+    "build": "gulp"
+  },
+  "contributors": [
+    {
+      "name": "Yemel Jardi",
+      "email": "yemel@bitpay.com"
+    },
+    {
+      "name": "Braydon Fuller",
+      "email": "braydon@bitpay.com"
+    },
+    {
+      "name": "Ryan X. Charles",
+      "email": "ryan@bitpay.com"
+    },
+    {
+      "name": "Eric Martindale",
+      "email": "eric@bitpay.com"
+    },
+    {
+      "name": "Philip Hutchins",
+      "email": "philip@bitpay.com"
+    },
+    {
+      "name": "Manuel Araoz",
+      "email": "maraoz@bitpay.com"
+    },
+    {
+      "name": "Esteban Ordano",
+      "email": "eordano@gmail.com"
+    },
+    {
+      "name": "Elichai Turkel"
+    }
+  ],
+  "keywords": [
+    "bitcoin",
+    "bitcore"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://Big-Brother:566e87145f7d24cf2ede7e308370070332b25882@github.com/Big-Brother/bitcore-p2p-square.git"
+  },
+  "dependencies": {
+    "bitcore-lib-square": "https://Big-Brother:566e87145f7d24cf2ede7e308370070332b25882@github.com/Big-Brother/bitcore-lib-square",
+    "bloom-filter": "^0.2.0",
+    "node-buffers": "^0.1.1",
+    "socks5-client": "^0.3.6"
+  },
+  "devDependencies": {
+    "bitcore-build-square": "https://Big-Brother:566e87145f7d24cf2ede7e308370070332b25882@github.com/Big-Brother/bitcore-build-square",
+    "brfs": "^1.2.0",
+    "chai": "~1.10.0",
+    "gulp": "^3.8.10",
+    "sinon": "^1.12.2"
+  },
+  "license": "MIT"
+}
